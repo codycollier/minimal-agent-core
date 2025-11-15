@@ -24,16 +24,6 @@ Contents:
 * `mincore.py` - OpenAI wrapper class which handles all the function translation work
 
 
-#### Note
-
-If you want a good minimal kit for real development, try the `Agent` class and
-the `function_tool` decorator from the openai-agents package:
-
-* https://github.com/openai/openai-agents
-* https://github.com/openai/openai-agents-python?tab=readme-ov-file#functions-example
-
-
-
 ## Try it out
 
 ```
@@ -114,3 +104,12 @@ Want me to generate another set, or specify a range for the number?
 
 >>> You: ^C
 ```
+
+## Note
+
+If you want a good minimal kit for real development, try the `Agent` class and
+the `function_tool` decorator from the openai-agents package:
+
+* https://github.com/openai/openai-agents
+* https://github.com/openai/openai-agents-python?tab=readme-ov-file#functions-example
+
