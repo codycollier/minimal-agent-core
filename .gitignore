@@ -1,0 +1,9 @@
+
+# Ignore the env config
+.env
+
+# Python
+__pycache/
+*.pyc
+
+
