@@ -4,6 +4,7 @@
 This prototype illustrates basic function calling with the OpenAI Responses API.
 """
 
+import logging
 import os
 import random
 
@@ -32,8 +33,6 @@ def get_number() -> int:
 
 def agent_loop():
     """Main loop for the agent"""
-    import logging
-
     logging.basicConfig(level=logging.INFO)
     # logging.basicConfig(level=logging.DEBUG)
 
