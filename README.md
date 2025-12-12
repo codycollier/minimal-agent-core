@@ -113,3 +113,8 @@ the `function_tool` decorator from the openai-agents package:
 * https://github.com/openai/openai-agents
 * https://github.com/openai/openai-agents-python?tab=readme-ov-file#functions-example
 
+Here's an example that ports a variation of this minimal core to the agent sdk:
+* https://github.com/codycollier/miscellanea/blob/main/agent-colorbot/colorbot.py
+
+Have fun!
+
