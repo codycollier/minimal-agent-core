@@ -10,9 +10,9 @@ hold a conversation and provide a random color and/or number.
 
 The core of an agent is relatively simple, and consists of a loop around special
 calls to an LLM where you send both a user message and a list of tools. The LLM
-decides when it needs to call a function, tells the program. The program makes
-the function call(s) and sends the result(s) back to the LLM to continue the
-conversation.
+decides when it needs to call a function, and tells the program with a special 
+response. The program makes the function call(s) and sends the result(s) back to 
+the LLM to continue the conversation.
 
 You can do all this in just a few hundred lines of code, most of which is about
 handling the representation of the functions and calls as json. This specific 
